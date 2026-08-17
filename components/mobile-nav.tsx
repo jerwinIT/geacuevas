@@ -78,7 +78,7 @@ export function MobileNav({ open, onOpenChange, activeHref }: MobileNavProps) {
           {/* CTAs — pinned to the bottom of the panel via mt-auto so
               they stay put regardless of how many nav links are above
               them, echoing the Hero's own Resume/Email pairing. */}
-          <div className="mx-2 mt-auto flex flex-col gap-3 border-t border-border pt-6">
+          <div className="mx-2 mt-auto flex flex-col gap-3 border-t border-border pt-6 mb-4">
             <a
               href={HERO_CONTENT.resumeHref}
               download

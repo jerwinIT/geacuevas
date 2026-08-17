@@ -7,7 +7,7 @@
 // importing from each other.
 
 export const NAV_LINKS_LEFT = [
-  { label: "Hero", href: "#hero" },
+  { label: "Home", href: "#hero" },
   { label: "About", href: "#about" },
 ] as const;
 

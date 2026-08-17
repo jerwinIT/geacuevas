@@ -72,7 +72,7 @@ export function Hero() {
                 y: heroAvatarY,
               }
         }
-        className="relative mb-8"
+        className="relative"
       >
         {/* No box, no ring, no crop — the source photo already has its
             background removed, so the full cutout sits directly in the
@@ -92,20 +92,9 @@ export function Hero() {
             className="object-contain object-bottom drop-shadow-xl"
           />
         </div>
-
-        {/* Status pill — "service available" motif, echoes the ring that
-            reappears around the small portrait in the nav. */}
-        <div className="absolute -bottom-2 left-1/2 flex -translate-x-1/2 items-center gap-1.5 whitespace-nowrap rounded-full border border-border bg-card px-3 py-1 font-mono text-[10px] tracking-wide text-muted-foreground">
-          <span className="relative flex h-1.5 w-1.5">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75" />
-            <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
-          </span>
-          {AVATAR.status}
-        </div>
       </motion.div>
 
-      <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 font-mono text-xs tracking-wide text-muted-foreground">
-        <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+      <span className="mb-5 inline-flex items-center gap-2 rounded-sm border border-border bg-card px-4 py-1.5 font-mono text-xs tracking-wide text-muted-foreground">
         {HERO_CONTENT.badge}
       </span>
 

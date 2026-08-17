@@ -45,13 +45,7 @@ export function Footer() {
             >
               {HERO_CONTENT.name}
             </a>
-            <div className="mt-3 inline-flex items-center gap-1.5 font-mono text-xs tracking-wide text-muted-foreground">
-              <span className="relative flex h-1.5 w-1.5">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75" />
-                <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-accent" />
-              </span>
-              {BRAND.tag}
-            </div>
+
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
               {HERO_CONTENT.subtitle}
             </p>
